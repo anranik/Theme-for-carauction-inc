@@ -1,0 +1,404 @@
+section#slider-wf {
+
+    background-color: #2a2b2d;
+
+}
+
+
+
+section#slider-wf {
+
+    position: relative;
+
+}
+
+
+
+section#slider-wf .carousel-inner>.item>a>img, section#slider-wf .carousel-inner>.item>img {
+
+    float: right;
+
+}
+
+
+
+section#slider-wf .carousel-caption {
+
+    float: left;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    text-align: left;
+
+    overflow-y: visible;
+    margin-left: 60px;
+
+}
+
+section#slider-wf .carousel-caption h1{
+
+    font-size: 24px
+
+}
+
+
+
+#slider-wf #myCarousel {
+
+    padding-top: 80px;
+
+    padding-bottom: 80px;
+
+}
+
+
+
+#slider-wf #myCarousel .carousel-indicators .active {
+
+    background-color: #1c1d1f;
+
+}
+
+#slider-wf #myCarousel .carousel-indicators li{
+
+    background-color: #1e5c14;
+
+    border-color: #1e5c14
+
+}
+
+
+
+#slider-wf #myCarousel .carousel-indicators li {
+
+    width: 15px;
+
+    height: 15px;
+
+}
+
+
+
+
+
+#slider-wf #myCarousel .carousel-indicators .active {
+
+    width: 17px;
+
+    height: 17px;
+
+}
+
+.single-post {
+
+    margin-bottom: 60px;
+
+}
+
+
+
+.single-post h3 a {
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    color: #286d15;
+
+}
+
+
+
+.single-post h3 span {
+
+    font-size: 13px;
+
+    color: #686464;
+
+}
+
+
+
+.single-post .content {
+
+    font-size: 14px;
+
+    color: #4e4d4d;
+
+    font-weight: 600;
+
+}
+
+.single-post .btn {
+
+    background: #4db032;
+
+    color: #fff;
+
+    font-weight: bold;
+
+}
+
+h1.f-head {font-size: 24px;font-weight: bold;color: #2a2b2d;}
+
+
+
+.sidebar-area {
+
+    text-align: center;
+
+    background-color: #f0f0f0;
+
+    border-radius: 10px
+
+}
+
+
+
+.newsletter img {
+
+    max-width: 100%;
+
+}
+
+
+
+p.f-adress {
+
+    font-size: 18px;
+
+    color: #000;
+
+    margin-bottom: 0;
+
+}
+
+
+
+p.f-date {
+
+    font-size: 18px;
+
+    color: #000;
+
+}
+
+
+
+.widget > h3 {
+
+    font-size: 18px;
+
+    color: #ce0e0e;
+
+    margin-bottom: 0;
+
+    margin-top: 0px;
+
+}
+
+
+
+.widget h2 {
+
+    color: #268c0a;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-top: 0;
+
+}
+
+
+
+.widget {
+
+    margin: 20px auto;
+
+    text-align: center;
+
+}
+
+section#post-wf-area {
+
+    padding: 70px 0px;
+
+}
+
+
+
+h2.auction-title {
+
+    margin-left: 15px;
+
+    margin-bottom: 25px;
+
+}
+
+.feed-img-area {
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    width: 125px;
+
+    height: 125px;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+section#slider-wf .carousel-caption .btn {
+
+    background-color: #268c0a;
+
+    color: #fff;
+
+}
+
+
+
+section#slider-wf .carousel-caption .btn:hover {
+
+    background-color: #2ca40b;
+
+    transition: all .5s;
+
+}
+
+
+
+.single-post .btn:hover {
+
+    background: #4FC72E;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    transition: all .5s;
+
+}
+
+
+#search-areamember{
+
+background-color: #C9C9C9;
+padding-bottom: 40px
+
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+    width: 20px;
+}
+/*responsive work*/
+
+
+
+
+
+/*Nexus7 (Landscape): 966px wide x 603px high*/
+
+@media screen and  (min-width: 769px) and (max-width: 966px ){ 
+
+
+
+.navbar-default .navbar-nav>li>a {
+
+    color: #fff;
+
+    padding: 0 15px;
+
+}
+
+#search-area .search-top-head img {
+
+    display: inline-block;
+
+    float: none;
+
+}
+
+#search-area .search-top-head img {
+
+    display: inline-block;
+
+    float: none;
+
+    /* margin-top: 10px; */
+
+    height: 50px;
+
+}
+
+.row.search-row {
+
+    margin-top: 70px;
+
+}
+
+    #footer_widget_area .fo-content .widget.social img {
+
+    max-width: 100%;
+
+}
+
+}
+
+
+
+
+
+
+
+/*iPad (Portrait): 768px wide x 1024px high*/
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px){
+
+section#slider-wf .carousel-inner > .item > a > img, section#slider-wf .carousel-inner > .item > img {
+
+    float: none;
+
+    margin: 0 auto;
+
+}
+
+
+
+}
+
+
+
+/*iphone (Portrait): 768px wide x 1024px high*/
+
+@media screen and (max-width: 480px){
+
+
+
+}
+

@@ -1,0 +1,136 @@
+/*
+Theme Name: arauction
+Author: Pixelnav Team
+Author URI: http://pixelnav.com/
+Description: This premium theme is create for car auction site only
+Version: 1.0
+License URI: http://pixelnav.com/
+*/
+
+/*Wordpress editor styles start*/
+
+.entry-content img {
+	margin: 0 0 1.5em 0;
+	}
+.alignleft, img.alignleft {
+	margin-right: 1.5em;
+	display: inline;
+	float: left;
+	}
+.alignright, img.alignright {
+	margin-left: 1.5em;
+	display: inline;
+	float: right;
+	}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	}
+.alignnone, img.alignnone {
+	/* not sure about this one */
+	}
+.wp-caption {
+	margin-bottom: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+	}
+.wp-caption img {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+	}
+.wp-caption p.wp-caption-text {
+	line-height: 1.5;
+	font-size: 10px;
+	margin: 0;
+	}
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1em;
+	}
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+	}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+	}
+
+/*Wordpress editor styles end*/
+
+
+
+
+
+
+.navbar-nav>li.open {
+    background: #2B7D14 !important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.dropdown-menu {
+    background-color: #2B7D14 !important;
+}
+
+.dropdown-menu>li>a {
+    color: #fff !important;
+}
+.dropdown-menu>li>a:hover {
+    color: #000 !important;
+}
+.ar_img img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.up_post {
+    display: block;
+    margin: 90px 0px;
+}
+#upcoming_auc_feed img {
+    /* height: 20px; */
+    float: left;
+    max-width: 100px;
+    margin-right: 5px;
+}
+#upcoming_auc_feed p {
+    line-height: 1;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+}
+a.moretag {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    color: #4db032;
+}
+
+.m_title {
+    background-color: #2e2e2e;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    line-height: 3.5 !important;
+}
+
+.m_price {
+   background-color: #a2b94f;
+    font-size: 30px;
+    font-weight: bold; 
+}
